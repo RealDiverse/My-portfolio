@@ -47,3 +47,4 @@ document.addEventListener("mousemove", function(event) {
     textElement.style.visibility = "hidden";
   }
 });
+

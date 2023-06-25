@@ -1,0 +1,52 @@
+/* Root variable hover color effects */
+:root {
+    --brightYellow:rgb(245, 245, 151);
+    --yellow:rgb(255, 217, 0);
+    --animSolidYellow:rgb(251, 255, 0);
+    --dullYellow:rgb(192, 164, 5);
+    --unfavouredYellowBrown:rgb(112, 83, 7);
+  }
+
+/*Header navigation links*/
+.nav ul{
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline-flex;
+  
+  }
+  
+  .nav a {
+    display: inline-flex;
+    padding: .6em;
+    color: var(--yellow);
+    text-decoration: none;
+  }
+  
+  .main-nav {
+    height: auto;
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    transform: translate(-10px);
+  }
+  
+  .main-nav li{
+    padding: 0 0%;
+  }
+
+  /* hover animation effects */
+  
+  .nav a:hover {color: var(--brightYellow); animation-name: wave; animation-duration: 2s;
+  background-size: auto; background-blend-mode: multiply;}
+
+  @keyframes wave {from {color: var(--unfavouredYellowBrown);} 
+  to {background-color:  var(--dullYellow), var(--animSolidYellow), var(--brightYellow);}}
+
+  #home-light {color: var(--brightYellow);} #personal-projects-light {color: var(--brightYellow);} 
+  #Team-projects-light {color: var(--brightYellow);}#About-light {color: var(--brightYellow);}
+  #Contact-light {color: var(--brightYellow);}
+
+
+
