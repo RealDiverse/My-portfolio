@@ -1,0 +1,76 @@
+.contact-me-back {
+    text-align: center;
+    font-size: 1cm;
+}
+
+.center-page {
+
+    text-align: center;
+}
+
+input  {
+    position: relative;
+    
+}
+
+.button {
+    text-align: center;
+    position: relative;
+    background-color: #333;
+}
+
+.button1 {
+    text-align: center;
+    position: relative;
+    background-color: #333;
+}
+
+.button a:hover {
+    color: white;
+}
+
+div button {
+    padding: 0 5%;
+    margin: 20px;
+}
+
+.text-one {
+    background-color: black;
+    position: relative;
+    margin: 0%;
+    height: 30px;
+    width: 450px;
+}
+
+.two {
+    height: 30px;
+    width: 455px;
+}
+
+.three {
+
+    height: 100px;
+    width: 490px;
+    
+}
+.text {
+  
+   /* background-color: black; */
+    position: relative;
+    text-align: center;
+   
+}
+
+
+
+
+/*
+.text2 {
+    background-color: black;
+    position: relative;
+    margin: 0%;
+    bottom: 12px;
+    width: 501px;
+    left: 30px;
+}
+*/

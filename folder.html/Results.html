@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>Tahir's Portfolio</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css">
+</Head>
+<head>
+    <h1 class="new-beginings"></h1>
+   <header class="main-header-about">
+      <nav class="nav main-nav">
+          <ul>
+              <li><a href="HomePage.html">Home</a></li>
+              <li><a href="Personal Projects.html">Personal Projects</a></li>
+              <li><a href="Team Projects.html">Team Projects</a></li>
+              <li><a href="About page.html">About</a></li>
+              <li><a href="Tahir Afflick CV .docx">CV</a>
+                
+         </ul>
+      </nav>
+    <title>Tahir's Portfolio</title>
+    <body>
+      <div id="results"></div>
+      <a href="/">back to form</a>
+    <script>
+        const resultsList = document.querySelector('#results')
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            resultsList.append(`${name}: ${value}`)
+            resultsList.append(document.createElement('br'))
+        })
+    </script>
+    </body>
