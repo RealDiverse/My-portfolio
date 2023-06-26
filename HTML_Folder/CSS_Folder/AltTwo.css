@@ -1,9 +1,43 @@
+:root {
+    --bluish: rgba(102, 153, 153, 0.281);
+    --creamish: rgb(194, 194, 194);
+
+}
+
 #changePos {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.253);
     padding-bottom: 2px;
     padding-top: 15px;
 }
 
-body, .body-Alt-Two {
-    background-color: aqua;
+.body-Alt-Two {
+    height: 1000px;
+    background-color: var(--bluish) !important;
+    opacity: 50px;
+}
+
+#box, img, p {
+    height: 200px;
+    width: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 45px;
+    align-content: center;
+    gap: 50px;
+   
+}
+
+.content {
+    background:  rgb(255, 255, 255);
+  
+}
+
+.p {
+
+    background-color: slategray;
+    border: 10px solid rgb(69, 139, 151);
+    opacity: 50%;
+    box-shadow: 5px 25px 25px hsla(0,0%,100%,.25);
+    
+
 }
