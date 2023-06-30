@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
+
 @font-face {
   font-family: "Booter - Zero Zero";
   src: url("fonts/Booter - Zero Zero.woff") format("woff"),
@@ -159,4 +160,174 @@ html, body{
   position: relative;
   top: 200px;
   left: 100px;
+}
+
+
+
+/* For laptop devices */ 
+
+@media only screen and (min-width: 1024px) {
+
+
+  @font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("fonts/Booter - Zero Zero.woff") format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  #margin {
+  
+    margin: 20px;
+  
+  }
+  
+  .main-header-about {
+   background-color: rgba(0, 0, 0, .6);
+    background-image: url();
+    background-size: auto;
+    background-blend-mode: multiply;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    color: rgb(255, 230, 0) 
+  }
+  
+  html, body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .Prototypes-imp{
+    text-decoration-color: aqua;
+  }
+  
+  .about-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+  }
+  
+  .about-name-large {
+    font-size: 2em;
+  }
+  
+  .content-section {
+    margin: 1em;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+  }
+   
+  .about-portfolio-image {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%; 
+    padding: .20em;
+  }
+  
+  /*.body-pages {
+    background-color:rgba(0, 0, 0);
+  }
+  */
+  
+  .portfolio-name-large {
+    background-color: black;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(255, 196, 0);
+  }
+  
+  .text-position {
+    text-align: end;
+  }
+  
+  
+  .coding-size {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    float: none;
+    inline-size: 10;
+    margin: 0 auto;
+    text-decoration: underline;
+    height: 220px;
+    width: 220px;
+    padding: .20em;
+    border-radius: 50%; 
+    text-align: center;
+  }
+  
+  .social-links {
+    position: relative;
+    text-align: left;
+    height: 220px;
+    width: 220px;
+    font-size: large;
+  }
+  
+  .new-beginings {
+    background-color: black;
+    font-size: large;
+    text-align: center; 
+  }
+  
+  .para-size {
+    position: relative;
+    top: 100px;
+    left: 200px;
+  }
+   
+  .text-position {
+    background-image:url("Images/Black\ Image.jpg");
+  }
+  
+  .below {
+    position: relative;
+    /*border-top: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, .3); */
+    text-align: left;
+    padding: 100px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    right: 100px;
+    width: 1600px;
+    bottom: 100px;
+    background-size: auto;
+    background-blend-mode: multiply;
+    text-decoration: none;
+  }
+  
+  .welcome-colour {
+    background-color: black;
+  }
+  
+  .margin {
+    margin: 1em;
+  }
+  
+  .Text-position {
+    position: relative;
+    top: 200px;
+    left: 100px;
+  }
+  
+
+
 }

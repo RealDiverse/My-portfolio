@@ -1,3 +1,9 @@
+@media only screen and (max-width: 2000px) and (min-width: 300px) {
+
+
+
+
+
 /* Root variable hover color effects */
 :root {
     --brightYellow:rgb(245, 245, 151);
@@ -47,6 +53,6 @@
   #home-light {color: var(--brightYellow);} #personal-projects-light {color: var(--brightYellow);} 
   #Team-projects-light {color: var(--brightYellow);}#About-light {color: var(--brightYellow);}
   #Contact-light {color: var(--brightYellow);}
-
+  }
 
 

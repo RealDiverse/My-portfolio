@@ -52,3 +52,79 @@
 }
 
 
+/* Keyframe type animation */
+
+/*
+.animated-text {
+
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "gamer";
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  content: "";
+  background-color: none;
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 2px solid #000;
+  right: -8px;
+  animation: cursor .6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+      border-left: 2px solid #2f3542;
+  }
+}
+
+@keyframes words {
+  0%, 20% {
+      content: "gamer";
+
+  }
+  21%, 40% {
+      content: "developer";
+
+  }
+  41%,60% {
+      content: "designer";
+
+  }
+  61%,80% {
+      content: "researcher";
+
+  }
+  81%,100% {
+      content: "team player";
+
+  }
+}
+
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+      width: 0;
+  }
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+      width: calc(100% + 8px);
+  }
+}*/
+
+/* Background animation color code 
+@keyframes anim {
+
+  from {background-color: black;}
+  to {background-color:  rgb(5, 1, 7), rgb(0, 0, 5), black;} 
+}
+*/
+

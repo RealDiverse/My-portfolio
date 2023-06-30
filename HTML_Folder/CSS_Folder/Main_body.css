@@ -1,16 +1,69 @@
+@media only screen and (max-width: 2000px) and (min-width: 10px) {
+
+
+
 .main-body {
     height: 1000px;
-   /* background-color: red; */
-   /* background: -webkit-linear-gradient(black,  rgb(5, 1, 7), rgb(0, 0, 5), black); */
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     background: -webkit-linear-gradient(black,  rgb(27, 3, 39), rgb(1, 1, 17), black);
+    position: relative;
     animation-name: anim;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     background-size: auto;
     background-blend-mode: multiply;
-    
 }
+
+
+
+#move-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transform: translateY(200px);
+    font-size: 50px;
+}
+
+#the-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.color-for-background {
+    position: relative;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.836);
+    border-bottom: 1px rgb(255, 217, 0);
+    z-index: -1;
+    top: -20px;
+}
+
+#move {
+    position: relative;
+    top: -25px;
+}
+
+.img-size {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    z-index: 2;
+}
+
+@keyframes anim {
+
+    from {background-color: rgb(5, 1, 7), rgb(0, 0, 5);}
+    to {background-color:  rgb(5, 1, 7), rgb(0, 0, 5);} 
+}
+
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -57,12 +110,6 @@
 }
   
 
-@keyframes anim {
-
-    from {background-color: black;}
-    to {background-color:  rgb(5, 1, 7), rgb(0, 0, 5), black;} 
-}
-
 /* Alternative webpages for appearence */
 
 .body-Alt {
@@ -87,4 +134,5 @@
 
 .body-Alt-Two {
     background-color: white;
+}
 }
