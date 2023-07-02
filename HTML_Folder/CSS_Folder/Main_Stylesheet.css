@@ -163,11 +163,9 @@ html, body{
 }
 
 
+/* For IPhone and Pixel 5 devices */
 
-/* For laptop devices */ 
-
-@media only screen and (min-width: 1024px) {
-
+@media only screen and (min-width: 375px ) and (max-width: 900px) {
 
   @font-face {
     font-family: "Booter - Zero Zero";
@@ -181,7 +179,7 @@ html, body{
   #margin {
   
     margin: 20px;
-  
+
   }
   
   .main-header-about {
@@ -201,8 +199,6 @@ html, body{
     margin: 0;
     padding: 0;
   }
-  
-  
   
   .Prototypes-imp{
     text-decoration-color: aqua;
@@ -327,7 +323,4 @@ html, body{
     top: 200px;
     left: 100px;
   }
-  
-
-
 }
