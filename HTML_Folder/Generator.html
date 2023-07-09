@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Generator.js" defer></script>
+    <link rel="stylesheet" href="CSS_Folder/Generater.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="color-to-change" class="box">
+    <!--Title-->
+        <h2>Password Generator:</h2>
+       <div class="text">Please click the generate button below to create a password.</div>
+    <!--Input field that we can populate with the password-->
+        <div>
+            <input type="text" placeholder="Click 'Generate'" id="password" readonly>
+       </div>
+    <!--button Container-->
+            <div class="buttons">
+        <!--Button to generate the password-->
+            <button id="generateBtn" class="button">Generate</button>
+        <!--Button to copy the password value to clipboard-->
+            <button id="copyBtn" class="button">Copy to Clipboard</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

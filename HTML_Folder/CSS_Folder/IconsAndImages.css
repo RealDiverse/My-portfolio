@@ -99,12 +99,12 @@
 
 .my-arrow {
 
+    position: relative;
+
     left: 1450px;
 }
 
-
-.nav-step li,
-a {
+.nav-step li, a {
 
     float: right;
 }

@@ -1,0 +1,68 @@
+/* Navigation implementation */
+body {
+    background-color: rgb(3, 66, 66)
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 250px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 70px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 1.5cm;
+    position: relative;
+    top: -30px;
+}
+
+.text {
+
+    position: relative;
+    top: -25px;
+}
+
+input {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+#generateBtn, #copyBtn {
+    position: relative;
+    top: 10px;
+    background-color: grey;
+    color: white;
+
+}
+
+#generateBtn {
+    margin: 15px;
+}
+
+#generateBtn:hover {
+    color: black;
+
+}
+
+#copyBtn:hover {
+    color: black;
+}
+
+#copyBtn {
+    margin: 15px;
+}
