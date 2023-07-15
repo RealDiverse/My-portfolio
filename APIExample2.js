@@ -55,4 +55,5 @@ document.addEventListener("DOMContentLoaded", async () => {
             imageContainer.append(characterImage)
             dataOutput.append(cardContainer)
     }
+    console.log(apiData[20].firstName)
 })
