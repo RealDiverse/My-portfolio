@@ -74,54 +74,71 @@ document.addEventListener("mousemove", function(eventT) {
   }
 }); 
 
-let day = "Monday"; 
-
-switch (day) {
-  case "Monday": 
-  console.log("Happy Monday!")
-  break 
-  case "Tuesday": 
-  console.log("Second day of the week!")
-  break 
-  case "Wednesday": 
-  console.log("It's almost Friday!")
-  break 
-  case "Thursday":
-    console.log("It's almost Friday!")
-    break
-    case "Friday":
-      console.log("Happy Friday!")
-      break
-      case "Saturday":
-      case "Sunday":
-        console.log("It's the weekend!")
-        break 
-        default: 
-        console.log("Day not recognised, try again")
-}
 
 
 
 
-let age = 18;
+// const currentOpacity = document.getElementsByName("href");
 
-if (age <= 18) {
-  console.log(`Sorry I can't serve you`)
-}
-else {
-  console.log(`No problem, what would you like to drink?`)
-}
+// function changeOpacity() {
+//   if (currentOpacity.style.opacity === "0") {
+//     currentOpacity.style.opacity = "1"; 
+    
+//   }else {
+//     currentOpacity.style.opacity = "0";
+//   }
+// }
 
-let password = "Password";
 
-if (password.length >= 9)
-{
-  console.log(`your password is correct`)
-}
-else 
-{
-  console.log(`your password is incorrect`)
-}
+
+// let day = "Monday"; 
+
+// switch (day) {
+//   case "Monday": 
+//   console.log("Happy Monday!")
+//   break 
+//   case "Tuesday": 
+//   console.log("Second day of the week!")
+//   break 
+//   case "Wednesday": 
+//   console.log("It's almost Friday!")
+//   break 
+//   case "Thursday":
+//     console.log("It's almost Friday!")
+//     break
+//     case "Friday":
+//       console.log("Happy Friday!")
+//       break
+//       case "Saturday":
+//       case "Sunday":
+//         console.log("It's the weekend!")
+//         break 
+//         default: 
+//         console.log("Day not recognised, try again")
+// }
+
+
+
+
+// let age = 18;
+
+// if (age <= 18) {
+//   console.log(`Sorry I can't serve you`)
+// }
+// else {
+//   console.log(`No problem, what would you like to drink?`)
+// }
+
+// let password = "Password";
+
+// if (password.length >= 9)
+// {
+//   console.log(`your password is correct`)
+// }
+// else 
+// {
+//   console.log(`your password is incorrect`)
+// }
 
 
 

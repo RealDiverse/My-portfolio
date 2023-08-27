@@ -12,6 +12,9 @@
     
     <link rel="stylesheet" href="CSS_Folder/Main_body.css"> 
     <link rel="stylesheet" href="CSS_Folder/main_footer.css">
+    <link rel="stylesheet" href="CSS_Folder/Contact_Page.css/footer.css">
+
+    <link rel="stylesheet" href="CSS_Folder/Contact_Page.css/main_body.css">
 
     <!--Google fonts to change text-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,104 +36,93 @@
                     <nav class="nav main-nav">
                         <ul>  
                                 <li><a href="HomePage.html">Home</a></li>
+                                <li><a href="About page.html">About</a></li>
                                 <li><a href="Personal Projects.html">Personal Projects</a></li>
                                 <li><a href="Team Projects.html">Team Projects</a></li>
-                                <li><a href="About page.html">About</a></li>
                                 <li><a href="Contact page.html" id="Contact-light">Contact</a></li>
                                 <li><a href="Tahir Afflick CV.docx">CV</a></li>   
-                        </ul>          
-                    </nav> 
-                    <div class="gradient"> 
+                                <span class="dropdown">
+                                    <span id="containerX" onclick="myFunction(this)">
+                                       <!-- <span id="myDropdown" class="dropdown-content"> -->
+                                        <div id="icon1" class="change"></div>
+                                        <div id="icon2" class="change"></div>  
+                                        <div id="icon3" class="change"></a></div>
+                                      <!--<div id="myDropdown" class="dropdown-content">
+                                            <a href="more.html">More</a> 
+                                        </div> -->
+                                    </span>
+                                    </span>
+                                </span>
+                                </ul>          
+                            </nav> 
+                        <div class="gradient"> 
+                    </div>         
+                </ul>                      
             </div>         
     </header> 
     <!--the main embodiment of the page-->
-        <body class="main-body"> 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <h2>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 
-            <script src="PopUpContent.js"></script>
-    <h1 class="contact-me-back"> contact Info</h1>
-       <body class="main-body"> 
-         <div class="center-page">
-            <form action="results.html" method="GET"> 
+<body id="move-form" class="main-body"> 
+<!-- <img src="Images/icons8-rhombus-loader2.gif" alt="This should work"> -->
+    <div id="object-content">
+        <form action="mailto:tahirafflick@gmail.com" method="post" enctype="text/plain"> 
             <div class="text">
+                <br>
             <label for="name">Name</label>
-            <input type="text" class="one text-one" name="name" id="name" placeholder="Name" required>
-            </di>
-            <br>
+            <input type="text" class="text-one" name="name" id="name" placeholder="Name" required>
+        </div>
+            <br><br>
             <div class="text">
             <br>
               <label for="email">Email</label>
-              <input type="email" class="two text-one" name="email" id="email" placeholder="email" required>
+              <input type="email" class="text-two" name="email" id="email" placeholder="email" required>
               </div>
               <br>
               <div class="text">
+                <br><br>
+                <label for="Contact">Mobile</label>
+                <input type="tel" class="text-four" name="Mobile" id="contact" placeholder="Optional">
+                </div>
+                <br>
+                <div class="text">
+                  <br><br>
               <label for="message">Message</label> 
-              <textarea name="message" id="message" class="three text-one" placeholder="Please include your message here"></textarea>
-            </ul>
-       </div>
-    </div>
+              <textarea name="message" id="message" class="three-text" placeholder="Please include your message here"></textarea>
+            </div>
+              <div id="movement">
+              <button type="reset" class="button1">reset</button> 
+              <button type="submit" class="button"> Submit</button>
+        </div>
 </div>
-              <!--
-              <label for="message">Message</label>
-              <input type="text" class="text" class="message-box"> 
-              !-->
-<nav>
-    <div>
-        <button type="reset" class="button1">reset</button> 
-        <button type="submit" class="button"> Submit</button>
-    </div>
-</nav>
-    </form>
-    
+    <script src="PopUpContent.js"></script>
 
-            <!--<nav class="nav-step">                   
-                <ul>
-                <li><a href="Game Jams.html">
-                <img class="Keyboard-size" src="Images/Keyboard Part 1.jpg">
-                <div>Game Jams</div>
-                </a>
-                </li>
-                    <li><a href="EarlyStage Prototypes.html">
-                    <img class="coding-size" src="Images/Coding .png">
-                    <div>Prototypes & implementations</div>
-                </a>
-                </li>
-                    <li><a href="Research & Development.html">
-                    <img class="Research-Development" src="Images/book computer.png">     
-                    <div>Research & Development</div>
-                </a>
-                </li>            
-                </ul>
-            </nav>-->
-        </body>
-    </h2>
-    </section>
-</html>
-</header>
-<br>
-<br>
-<hr style="border: 1px solid yellow">
+</body>
+
 <footer class="main-footer">
-   <div class="container main-footer-container">
-<ul class="nav footer-nav">
-    <h2 class="social-links">Social media Links:</h2>
-    <nav class="nava main-nava">
-    <li><a href="https://www.linkedin.com/in/tahir-afflick-b82483117/" target="_blank">
-        <img src="Images/Linkedin Logo yellow.png" class="linkedin-logo"> 
-        </a>
-      <li><a href="https://www.instagram.com/real_diverse/" target="_blank">
-        <img src="Images/Instagram logo Yellow.png" class="Instagram-logo">
-        </a>
-    
-        <li><a href="https://github.com/RealDiverse" target="_blank">
-        <img src="Images/Github yellow logo.png" class="Github-logo">
-    </p> 
-        </a>
-        </li>
-        </li>
-        </li>
-</ul>
-</nav>
+    <hr>
+    <span id="containerT">
+       <span id="text-position" class="my-arrow">My social pages!</span>
+        <div id="social-media"><img src="Images/down_arrow.png"id="arrow-down" class="my-arrow">
+            <nav class="nava">
+            </span>
+                <div>
+                <ul>          
+                    <li><a href="https://www.linkedin.com/in/tahir-afflick-b82483117/" target="_blank">
+                    <img src="Images/Linkedin Logo yellow.png" id="linkedin" class="Social-logo"> 
+                    </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/real_diverse/" target="_blank">
+                    <img src="Images/Instagram logo Yellow.png" id="Instagram" class="Social-logo">
+                    </a>
+                    </li>
+                    <li><a href="https://github.com/RealDiverse" target="_blank">
+                    <img src="Images/Github yellow logo.png" id="Github" class="Social-logo">
+                    </a>
+                    </li>
+                </div>
+        </ul>
+    </nav>
+</div>
 </footer>
 </html>

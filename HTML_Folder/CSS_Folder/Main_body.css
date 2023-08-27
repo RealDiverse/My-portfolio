@@ -1,6 +1,23 @@
 /* laptop/TV screen width */
+header, footer, div, hr {
+    
+    transition: opacity 3s;
+    animation: fadeInAnimation 2s;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+   
+
+}
 
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 .main-body {
@@ -135,13 +152,109 @@
 
 .body-Alt-Two {
     background-color: white;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+.flip-box-inner {
+    position: relative;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+.img-size, .img-size2, .img-size3 {
+    position: relative;
+    top: 250px; 
+    height: 300px;
+    width: 350px;
+    display: inline-flex;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    perspective: 1000px;
+    border: 1px solid white;
+
+}
+
+/* .img-size {
+
+    height: 300px;
+    width: 350px;
+    border: 1px solid white;
+}
+
+.img-size2 {
+
+    height: 300px;
+    width: 350px;
+    border: 1px solid white;
+}
+
+.img-size3 {
+    
+    height: 300px;
+    width: 350px;
+    border: 1px solid white;
+} */
+
+
+
+#the-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.img-size2:hover {
+    transform: rotateY(180deg);
+    background-color: yellow;
+  }
+  
+ .flip-box-front, .flip-box-back {
+    position: absolute;
+    position: relative;
+    height: 300px;
+    width: 350px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }  
+  
+   
+.flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  } 
+
+.p-text {
+    position: relative;
+    display: inline-block;
+    font-size: x-large;
+    left: -385px;
 }
 
 
 
 
 
+/* 
+.img-size2 {
+    position: relative;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.img-size3 {
+    position: relative;
+    gap: 50px;
+}  */
 
 
 
@@ -191,7 +304,6 @@
 #the-container {
     display: flex;
     justify-content: space-between;
-
 }
 
 

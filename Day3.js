@@ -26,8 +26,6 @@ const saveToLocalStorage = () => {
 console.log(localStorage)
 submitBtn.addEventListener("click", saveToLocalStorage)
 
-document.get
-
 const removeKeyValuePairs = () => {
     const key = keyInput.value
     const value = valueInput.value
