@@ -86,23 +86,21 @@
 #text-position, .my-arrow {
     position: sticky;
     display: flex;
-    justify-content: end;
+    justify-content: end; 
     margin-right: 0px;
     top: 160px;
     padding-right: 140px;
-    padding-left: 0%;
+    padding-left: 0%; 
     font-family: 'Indie Flower';
     font-size: xx-large;
     height: 80px;
-    top: -5px
+    top: -5px 
 }
 
 .my-arrow {
-
-    position: relative;
-
-    left: 1450px;
+    left: 1750px;
 }
+
 
 .nav-step li, a {
 

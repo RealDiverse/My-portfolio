@@ -6,17 +6,6 @@ header, div, footer {
     animation-duration: 2s;
 
 }
-/* 
-img {
-    position: relative;
-    transition: opacity 2s;
-    animation-duration: 2s;
-    animation: fadeOutAnimation 2s;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-
-} */
-
 
 @keyframes fadeInAnimation {
     100% {
@@ -28,30 +17,31 @@ img {
 }
 
 
-/* @keyframes fadeOutAnimation {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-} */
-
-#move-form {
-    position: relative;
-    
-    
-}
-
 #object-content {
     position: relative;
-    display: flex;
-    top: -500px;
+    display: grid;
     justify-content: center;
-    
-
+    background-color: rgba(0, 0, 0, 0.277);
+    /* border: 1px solid rgba(255, 255, 0, 0.384);  */
+    height: 700px;
+    margin-left: 600px;
+    margin-right: 600px;
+    top: 50px;
 }
 
+p {
+    position: relative;
+    text-align: center;
+    top: 60px;
+    z-index: 1;
+}
+
+
+textarea {
+
+    height: 200px;
+    width: 600px;
+}
 
 .spacing {
     position: relative;
@@ -64,16 +54,17 @@ img {
 #movement {
     position: relative;
     display: inline-block;
-    top: 145px;
-    left: 100px;
-    
     justify-content: center;
     align-content: center;
+    top: 145px;
+    left: 100px; 
 }
 
 
 .button {
-    margin-left: 35px;
+    position: relative;
+    top: 115px;
+    margin-left: 65px;
     padding: 10px;
     border-radius: 10px;
     background-color: black;
@@ -92,15 +83,17 @@ img {
 }
 
 .button1 {
+    position: relative;
     padding: 10px;
     margin-right: 35px;
-    margin-left: 18px;
+    margin-left: 68px;
     border-radius: 10px;
+    top: 115px;
     background-color: black;
 
 }
 
-#name, #email, #message, #contact {
+#name, #email, #message, #contact, #L-name {
 
     /* background-color: rgb(47, 46, 46); */
     background-color: rgb(0, 0, 0);
@@ -124,17 +117,30 @@ label {
     font-size: medium;
 }
 
-.text-one {
 
+.text {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.text-one {
     position: relative;
     display: inline-block;
-    left: 46px;
+    color: var(--brightYellow);
+    top: 10px;
+   
 }
 
 .text-two {
     position: relative;
     display: inline-block;
-    left: 48px;
+    top: 10px;
+    color: var(--brightYellow);
+
 
 }
 
@@ -142,14 +148,28 @@ label {
 
     position: relative;
     display: inline-block;
-    left: 15px;
-    top: 30px;
+    top: 10px;
+    color: var(--brightYellow);
 
 }
 
 .text-four {
     position: relative;
     display: inline-block;
-    left: 38px;
+    top: 5px;
+    color: var(--brightYellow);
+
+    
 }
+
+.text-five {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    color: var(--brightYellow);
+
+} 
+
+
+
 

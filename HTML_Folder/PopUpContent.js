@@ -64,7 +64,7 @@ document.addEventListener("mousemove", function(eventT) {
 
   console.log(distanceT)
   // Change the visibility of the text based on the distance
-  if (distanceT > 1200 && distanceT < 1900 ) 
+  if (distanceT > 100 && distanceT < 1900 ) 
   {
     textElementT.style.visibility = "visible";
   } 

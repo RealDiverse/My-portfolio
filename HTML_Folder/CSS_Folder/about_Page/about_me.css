@@ -1,0 +1,98 @@
+p {
+    display: flex;
+    position: relative;
+    text-align: left;
+    margin-left: 1000px;
+    padding: 200px;
+}
+
+
+#change {
+
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    top: -430px;
+}
+
+#change-two {
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    top: -200px;
+  
+}
+
+.info {
+    position: relative;
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    border-right: 200px;
+}
+
+.Fireslug_Logo {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.GameAnalytics_Logo {
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    left: 105px;  
+}
+
+
+
+#Four_Content {
+    padding-left: 103px;
+}
+
+.PlayStation_Logo {
+    width: 150px;
+}
+
+.Synthesia_Logo {
+    width: 200px;
+}
+
+
+
+.color_black {
+    background-color: black; 
+}
+
+.color {
+    position: relative;
+    height: 500px;
+    background-color: rgba(1, 0, 7, 0.578);
+
+}
+
+#move_It {
+    position: relative;
+    top: 7px;
+}
+
+.font {
+    position: relative;
+    font-size: 5mm;
+
+} 
+
+/* .text_change {
+    position: relative;
+    text-align: left;
+} */
+
+b {
+    color: var(--brightYellow);
+}
+
+

@@ -9,6 +9,14 @@ header, footer, div, hr {
 
 }
 
+img {
+
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+
 
 @keyframes fadeInAnimation {
     0% {
@@ -19,9 +27,26 @@ header, footer, div, hr {
     }
 }
 
+.main-body-About, .main-body-PS, .main-body-TP {
+    height: 1153px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(black,  rgb(27, 3, 39), rgb(1, 1, 17), black);
+    position: relative;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: auto;
+    background-blend-mode: multiply;
+}
+
 
 .main-body {
-    height: 1000px;
+    height: 530px;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -71,14 +96,13 @@ header, footer, div, hr {
 }
 
 
-
+/* 
 .img-size {
     position: relative;
     height: 300px;
     width: 400px;
-    margin: 10px;
     z-index: 2;
-}
+} */
 
 @keyframes anim {
 
@@ -138,10 +162,10 @@ header, footer, div, hr {
     background: -webkit-linear-gradient(black,  rgb(7, 46, 104), rgb(12, 12, 95), black);
     animation-name: secondAnim;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: alternate;
     background-size: auto;
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
 }
 
 @keyframes secondAnim {
@@ -170,38 +194,39 @@ header, footer, div, hr {
 
 .img-size, .img-size2, .img-size3 {
     position: relative;
-    top: 250px; 
+    top: 200px; 
     height: 300px;
     width: 350px;
     display: inline-flex;
+    justify-content: space-around;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    background-color: transparent;
+    background-color: rgba(145, 145, 145, 0.215);
     perspective: 1000px;
     border: 1px solid white;
-
-}
-
-/* .img-size {
-
-    height: 300px;
-    width: 350px;
-    border: 1px solid white;
-}
-
-.img-size2 {
-
-    height: 300px;
-    width: 350px;
-    border: 1px solid white;
-}
-
-.img-size3 {
     
-    height: 300px;
-    width: 350px;
-    border: 1px solid white;
-} */
+
+
+
+    
+
+}
+
+ .img-size:hover {
+
+   color: rgba(255, 255, 255, 0.555);
+    
+}
+
+.img-size2:hover {
+
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.img-size3:hover {
+    
+    color: rgba(255, 255, 255, 0.555);
+} 
 
 
 
@@ -236,7 +261,6 @@ header, footer, div, hr {
     position: relative;
     display: inline-block;
     font-size: x-large;
-    left: -385px;
 }
 
 
@@ -322,13 +346,13 @@ header, footer, div, hr {
     top: -25px;
 }
 
-.img-size {
+/* .img-size {
     position: relative;
     height: 300px;
     width: 400px;
     margin: 10px;
     z-index: 2;
-}
+} */
 
 @keyframes anim {
 
